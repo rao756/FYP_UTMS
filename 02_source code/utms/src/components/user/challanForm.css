@@ -1,0 +1,100 @@
+.form-section {
+  width: 24%;
+  border: 1px solid black !important;
+}
+
+.uon-image img {
+  height: 15vh;
+  padding-left: 14px;
+}
+
+.uon-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* user info  */
+.border-bottom label {
+  font-weight: bold;
+}
+
+.border-bottom span {
+  font-weight: bold;
+}
+#challan-content {
+  font-family: Arial, sans-serif; /* Use a standard, clear font */
+  font-size: 14px; /* Adjust size for readability */
+  line-height: 1.5; /* Improve spacing */
+  color: #000000; /* Ensure high contrast */
+}
+
+.inputt {
+  font-weight: 400; /* Avoid overly bold or light text */
+  background: transparent; /* Ensure no background interference */
+  border: none; /* Remove borders that might blur */
+}
+
+.route {
+  border: none;
+  outline: none;
+  width: 63%;
+}
+
+/* .busStop{
+        border: 2px solid red;
+     
+     } */
+.input-route {
+  display: flex;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.input-bus {
+  width: 49%;
+
+  border: none;
+  outline: none;
+}
+
+.submit {
+  background: rgb(6, 143, 74);
+  color: white;
+  padding: 7px 17px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.submit:hover {
+  color: aliceblue;
+  /* Box shadow on hover */
+}
+
+.table tbody tr td {
+  height: 20px;
+  /* Adjust the height as needed */
+}
+
+.table tbody tr td,
+.table thead th {
+  border: 1px solid;
+  border-color: black;
+  /* Change vertical line color to black */
+}
+
+.fs-7 {
+  font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+  .form-section {
+    width: 48%;
+  }
+}
+
+@media (max-width: 786px) {
+  .form-section {
+    width: 100%;
+  }
+}
